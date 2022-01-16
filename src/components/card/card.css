@@ -1,0 +1,101 @@
+
+.card{
+    padding-left: 36px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.card-pic{
+    width: 176px;
+    height:235px;
+}
+
+.card-rating{
+    display: flex;
+    gap:3px;
+    align-items: center;
+
+}
+
+.light-text{
+    font-weight: 300;
+    
+}
+
+.star{
+    color: #FE395C;
+    font-size: 13px;
+
+}
+
+.rating-des{
+    font-size: 13px;
+}
+
+.rating-des > span{
+    color: #918E9B;
+}
+
+.card-desc{
+    font-weight: 300;
+    font-size:12px;
+    width:195px;
+}
+
+.card-price{
+    font-weight: 300;
+    font-size:12px;
+    width:144px;
+
+}
+
+.card-status{
+    position: absolute;
+    width: 91px;
+    height: 25px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 8px;
+    left: 42px;
+    font-size: 10.24px;
+    border: transparent;
+    border-radius: 4px;
+    
+}
+
+.card-price > span{
+    font-weight: 700;
+}
+
+@media (max-width: 450px) {
+    .card{
+        padding-left: 22px;
+    }
+    
+    .card-pic{
+        width: 108px;
+        height:135px;
+    }
+
+    .card-desc{
+        font-weight: 300;
+        font-size:12px;
+        width:98px;
+    }
+
+    .card-status{
+        
+        width: 61px;
+        height: 25px;
+        
+        top: 4px;
+        left: 27px;
+        
+        
+    }
+    
+    
+  }
